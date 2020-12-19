@@ -24,7 +24,7 @@
     "update": "ng update @nrwl/workspace"
   },
   "dependencies": {
-    "jsonc-parser": "^2.1.1"
+    "jsonc-parser": "^2.3.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.803.3",
