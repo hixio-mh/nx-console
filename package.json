@@ -21,10 +21,13 @@
     "format": "nps format.write",
     "build-vs-code": "nps prepare.dev.vscode",
     "postinstall": "node ./tools/scripts/postinstall.js",
-    "update": "ng update @nrwl/workspace"
+    "update": "ng update @nrwl/workspace",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "jsonc-parser": "^2.1.1"
+    "jsonc-parser": "^2.1.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.803.3",
@@ -96,5 +99,6 @@
     "testMatch": [
       "**/*.+(spec|test).(ts|js)"
     ]
-  }
+  },
+  "snyk": true
 }

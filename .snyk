@@ -1,0 +1,95 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - nps > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+    - stylelint > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+    - vsce > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@angular-devkit/build-angular > @babel/core > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@angular-devkit/build-angular > webpack-merge > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@angular/cli > inquirer > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/node > fork-ts-checker-webpack-plugin > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/angular > jasmine-marbles > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - nps-utils > concurrently > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+    - stylelint > table > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+    - vsce > cheerio > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/cypress > @cypress/webpack-preprocessor > @babel/core > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@angular-devkit/build-angular > source-map-loader > async > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/node > webpack-dev-server > http-proxy-middleware > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/node > @angular-devkit/build-webpack > webpack-merge > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/angular > @nrwl/cypress > fork-ts-checker-webpack-plugin > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - cypress > getos > async > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/angular > @nrwl/cypress > @cypress/webpack-preprocessor > @babel/core > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-types > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/node > webpack-dev-server > portfinder > async > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - jest > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/workspace > @nrwl/cli > @nrwl/tao > inquirer > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/cypress > @cypress/webpack-preprocessor > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - jest > jest-cli > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/node > @nrwl/linter > @angular-devkit/build-angular > webpack-dev-server > http-proxy-middleware > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - jest-preset-angular > jest-environment-jsdom-thirteen > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/angular > @nrwl/cypress > @cypress/webpack-preprocessor > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/node > @nrwl/linter > @angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-types > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/node > @nrwl/linter > @angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/node > @nrwl/linter > @angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/node > @nrwl/linter > @angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > lodash':
+        patched: '2021-10-23T03:58:24.720Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+    - cypress > lodash:
+        patched: '2021-10-23T03:58:24.720Z'
+  SNYK-JS-TREEKILL-536781:
+    - '@nrwl/node > tree-kill':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/angular > @nrwl/cypress > tree-kill':
+        patched: '2021-10-23T03:58:24.720Z'
+    - nps-utils > concurrently > tree-kill:
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/node > @nrwl/linter > @angular-devkit/build-angular > tree-kill':
+        patched: '2021-10-23T03:58:24.720Z'
+    - '@nrwl/node > @nrwl/linter > @angular-devkit/build-angular > @ngtools/webpack > tree-kill':
+        patched: '2021-10-23T03:58:24.720Z'
