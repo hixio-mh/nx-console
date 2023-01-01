@@ -52,7 +52,7 @@
     "husky": "^3.0.9",
     "jest-preset-angular": "7.0.0",
     "jest": "24.1.0",
-    "json5": "^2.1.1",
+    "json5": "^2.2.2",
     "nps-utils": "1.7.0",
     "nps": "5.9.3",
     "prettier": "1.16.4",
